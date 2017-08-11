@@ -1,0 +1,26 @@
+Nome: Matheus de Mello Santos Oliveira
+NUSP: 8642821
+
+Para pi-1mil
+resultado: 4
+
+Para pi-10mil
+resultado: 5
+
+Maior valor de N foi de 10^8, com resultado de 6.
+
+1e8 testado com as seguintes sts:
+
+Hash - 3m49s
+TST - 1m57s
+Trie - 2m41s
+10way - 1.52s
+
+10way e um rway implementada de maneira a ter
+alfabeto de 10 caracteres, todos digitos.
+
+RedBlack produz tempos horriveis.
+
+Hash produz um tempo parecido com tries, mas tst e 10way ganham
+por pouco.
+

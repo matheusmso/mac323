@@ -1,0 +1,16 @@
+Nome: Matheus de Mello Santos Oliveira
+NUSP: 8642821
+
+Essa lista gera uma DAG com pouco vertices, 26*3,
+e muitas arestas (para a quantidade de vertices) 1027.
+Isso gera muitas possibilidades de ir de a pra b
+e nesse caso temos zzz que e uma especie de source,
+pois tem indegree igual a zero e a e um sink pois 
+tem outdegree igual a zero, portanto temos caminhos 
+que percorrem a dag por todo seu "diametro".
+Isso gera uma quantidade de caminhos praticamente
+exponencial, se usarmos int ou longs ambos estouram
+muito rapido, como BigInteger, em teoria nao estoura,
+ele serve para resolver o problema.
+
+

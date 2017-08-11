@@ -1,0 +1,16 @@
+Nome: Matheus de Mello Santos Oliveira
+NUSP: 8642821
+
+Para pi-1mil
+resultado: 4
+
+Para pi-10mil
+resultado: 5
+
+Maior valor de N foi de 10^8, com resultado de 6.
+
+Com o metodo Rabin-Karp percebi uma diminuicao significativa no tempo,
+testes para 10^8 numeros pseudo aleatorios produzem resultado de 6 em
+aproximadamente 1 minuto, ao passo que o metodo com tries produzia o 
+mesmo resultado em torno de 65% mais lento - de 1 minuto e 40 segundos 
+para 1 minuto.
